@@ -1,0 +1,18 @@
+.add-student-row{
+    display: flex;
+    justify-content: space-between;
+}
+.add-student-col{
+    /* background: var(--body-menu-bg); */
+    /* box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.05); */
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.add-student-col:first-child{
+    width: 30%;
+}
+
+.add-student-col:last-child{
+    width: 68%;
+}

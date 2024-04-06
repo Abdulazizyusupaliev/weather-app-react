@@ -1,0 +1,137 @@
+.top__bar{
+    background: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.05);
+}
+
+.top__bar .title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.top__bar .text{
+    font-size: 12px;
+}
+
+.top__bar .time{
+    font-size: 15px;
+}
+
+.statistics__1{
+    display: flex;
+    gap: 10px;
+}
+
+.statistics__1 p,i{
+    /* color: #fff; */
+}
+
+.statistics__1 .card{
+    width: 200px;
+    height: 80px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.statistics__1 .card:nth-child(1){
+    background-color: #379737;
+}
+.statistics__1 .card:nth-child(2){
+    background-color: #d8c01c;
+}
+.statistics__1 .card:nth-child(3){
+    background-color: #ea6d00;
+}
+
+.total__students-number{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card__icon__text{
+    display: flex;
+    gap: 10px;
+}
+
+.statistics{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 16px;
+    width: 840px;
+    box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.05)
+}
+
+.statistics_2 img{
+    width:100%;
+    object-fit: cover;
+}
+
+.statistics_2{
+    display: flex;
+    gap: 10px;
+}
+
+
+.content__intro{
+    padding: 10px;
+    box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.05);
+}
+
+.home__content{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+.content__intro{
+    width: 100%;
+    box-shadow: 0px 20px 27px 0px rgba(0, 0, 0, 0.05);
+    background-color: white;
+    border-radius: 16px;
+}
+
+.top__text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top__text .left{
+    font-size: 17px
+}
+
+.top__text .right{
+    font-size: 14px;
+    color: rgb(4, 41, 154);
+    cursor: pointer;
+}
+.top__text .right:hover{
+    text-decoration: underline;
+}
+
+.all__teachers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.all__teachers .course{
+    cursor: pointer;
+}
+
+
+.react-calendar{
+    width: 100% !important;
+    height: 100% !important;
+}
